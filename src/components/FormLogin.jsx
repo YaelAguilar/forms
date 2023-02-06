@@ -22,7 +22,9 @@ function FormLogin() {
                     <button type="summit">Iniciar sesión</button>
                 </li>
                 <li>
-                <Link to="/register">No tienes cuenta, regístrate</Link>
+                    <div className="register">
+                        <Link to="/register">No tienes cuenta, regístrate</Link>
+                    </div>
                 </li>
             </ul>
         </form>
